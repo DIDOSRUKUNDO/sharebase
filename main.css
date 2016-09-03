@@ -1,0 +1,105 @@
+*{
+margin:0;
+padding:0;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+#bg{
+	margin:0 auto 0 auto;
+	width:100%;
+	height:500px;
+	overflow:hidden;
+	
+	
+	overflow:hidden;
+	background-image:
+	linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+	url('../images/student-interns-group.jpg');
+	background-repeat:none;
+	background-size:100% 700px;
+}
+#nav{
+	overflow:hidden;
+	width:100%;
+	height:50px;
+	line-height:50px;
+	background-color:#fff;
+	border-bottom:solid 1px #eee;
+	box-shadow: 0 10px 15px #808080;
+}
+#nav h3{
+	float:left;
+	color:orange;
+	float:left;
+	padding:0 100px 0 100px;
+}
+#nav ul{
+	list-style:none;
+	padding-left:184px;
+	
+}
+#nav ul li{
+	display:inline;
+	padding-right:24px;
+}
+#nav ul li a{
+	text-decoration:none;
+	font-family:veridana;
+	font-family: 'Open Sans', sans-serif;
+	color:#000;
+}
+#nav ul li a:hover{
+	color:orange;
+}
+#nav img{
+	vertical-align:-6px;
+	width:30px;
+	height:30px;
+}
+#header{
+	margin:150px auto;
+	width:50%;
+	overflow:hidden;
+	padding:8px;
+	background-image:
+	linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4));
+	border-radius:5px;
+}
+#header h2{
+	text-align:center;
+	color:#fff;
+	text-shadow:0 0 0.3 #000;
+	
+}
+#header input[type="text"]{
+	display:block;
+	width:450px;
+	height:35px;
+	border:none;
+	border-radius:5px;
+	margin:4px 0 0 100px;
+	padding-left:8px;
+	font-size:14px;
+	
+}
+#header button{
+	width:100px;
+	 font-weight:bold;
+	margin:4px 0 0 210px;
+	background-color:#1E90FF;
+	text-shadow:0 0 0.3 #000;
+	outline:none;
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 0 3px #808080;
+  padding:12px;
+}
